@@ -6,14 +6,10 @@
 
   <style>
     :root {
-      --primary: #f24d7a;
       --blue: #3b82f6;
-      --blue-light: #60a5fa;
-      --blue-soft: #bfdbfe;
-      --blue-pale: #dbeafe;
+      --gray: #e5e7eb;
       --text: #101828;
       --muted: #667085;
-      --border: #e4e7ec;
     }
 
     * {
@@ -28,7 +24,6 @@
       height: 100%;
       background: transparent;
       overflow: hidden;
-
       font-family:
         Inter,
         ui-sans-serif,
@@ -44,24 +39,14 @@
       height: 100%;
       display: flex;
       flex-direction: column;
-      justify-content: center;
       align-items: center;
-      gap: 14px;
+      justify-content: center;
     }
 
     .donut {
-      width: 190px;
-      height: 190px;
+      width: 220px;
+      height: 220px;
       border-radius: 50%;
-
-      background:
-        conic-gradient(
-          var(--blue) 0 25%,
-          var(--blue-light) 25% 50%,
-          var(--blue-soft) 50% 75%,
-          var(--blue-pale) 75% 100%
-        );
-
       display: grid;
       place-items: center;
       position: relative;
@@ -69,8 +54,8 @@
 
     .donut::after {
       content: "";
-      width: 120px;
-      height: 120px;
+      width: 150px;
+      height: 150px;
       border-radius: 50%;
       background: white;
       position: absolute;
@@ -80,12 +65,12 @@
       position: relative;
       z-index: 2;
       text-align: center;
-      line-height: 1.1;
     }
 
     .center strong {
       display: block;
-      font-size: 1.7rem;
+      font-size: 2rem;
+      line-height: 1;
       font-weight: 800;
       letter-spacing: -0.04em;
       color: var(--text);
@@ -93,41 +78,17 @@
 
     .center span {
       display: block;
-      margin-top: 5px;
-      font-size: 0.75rem;
-      color: var(--muted);
+      margin-top: 8px;
+      font-size: 0.8rem;
       font-weight: 600;
-    }
-
-    .legend {
-      display: grid;
-      grid-template-columns: repeat(2, auto);
-      column-gap: 18px;
-      row-gap: 5px;
-
-      font-size: 0.68rem;
-      line-height: 1.2;
       color: var(--muted);
     }
 
-    .legend-item {
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      white-space: nowrap;
+    .updated {
+      margin-top: 14px;
+      font-size: 0.72rem;
+      color: var(--muted);
     }
-
-    .dot {
-      width: 7px;
-      height: 7px;
-      border-radius: 50%;
-      flex: 0 0 auto;
-    }
-
-    .dot-1 { background: var(--blue); }
-    .dot-2 { background: var(--blue-light); }
-    .dot-3 { background: var(--blue-soft); }
-    .dot-4 { background: var(--blue-pale); }
   </style>
 </head>
 
@@ -135,36 +96,39 @@
 
   <div class="graph">
 
-    <div class="donut">
+    <div class="donut" id="donut">
       <div class="center">
         <strong>DEX</strong>
-        <span>Advisory</span>
+        <span id="percentText"></span>
       </div>
     </div>
 
-    <div class="legend">
-      <div class="legend-item">
-        <span class="dot dot-1"></span>
-        Insights / Research
-      </div>
-
-      <div class="legend-item">
-        <span class="dot dot-2"></span>
-        Design / Service
-      </div>
-
-      <div class="legend-item">
-        <span class="dot dot-3"></span>
-        Producto / Negocio
-      </div>
-
-      <div class="legend-item">
-        <span class="dot dot-4"></span>
-        Transformación / Org
-      </div>
-    </div>
+    <div class="updated" id="updatedText"></div>
 
   </div>
+
+  <script>
+    
+    const advisoryPercent = 68;
+    const updatedAt = "26/09/2026";
+
+    // ============================
+
+    const donut = document.getElementById("donut");
+    const percentText = document.getElementById("percentText");
+    const updatedText = document.getElementById("updatedText");
+
+    donut.style.background = `
+      conic-gradient(
+        var(--blue) 0 ${advisoryPercent}%,
+        var(--gray) ${advisoryPercent}% 100%
+      )
+    `;
+
+    percentText.textContent = `${advisoryPercent}% Advisory`;
+
+    updatedText.textContent = `Actualizado el ${updatedAt}`;
+  </script>
 
 </body>
 </html>
