@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: transparent;
+    }
+
+    .donut {
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      background: conic-gradient(
+        #3b82f6 0deg 245deg,
+        #e5e7eb 245deg 360deg
+      );
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .donut::after {
+      content: "";
+      width: 150px;
+      height: 150px;
+      background: white;
+      border-radius: 50%;
+      position: absolute;
+    }
+
+    .label {
+      position: relative;
+      z-index: 1;
+      font-size: 28px;
+      font-weight: 800;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="donut">
+    <div class="label">DEX</div>
+  </div>
+</body>
+</html>
