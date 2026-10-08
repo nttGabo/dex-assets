@@ -1,0 +1,46 @@
+{
+  "casos": [
+    {
+      "hot": true,
+      "estado": "Validado",
+      "formato": "Presentación",
+      "titulo": "Analítica en un agente conversacional",
+      "area": "Analítica Digital",
+      "tags": [
+        "Google"
+      ],
+      "descripcion": "Presentación de la solución analítica de un agente conversacional.",
+      "autor": "PM",
+      "fecha": "2026-07-29",
+      "url": ""
+    },
+    {
+      "estado": "Validado",
+      "formato": "Presentación",
+      "titulo": "Plan de transformación del perfil",
+      "area": "Analítica Digital",
+      "tags": [
+        "Banca",
+        "App Script"
+      ],
+      "descripcion": "Planificación estratégica del cambio de perfil del analista en el paradigma de la Inteligencia Artificial.",
+      "autor": "PM",
+      "fecha": "2026-04-10",
+      "url": ""
+    },
+    {
+      "estado": "Validado",
+      "formato": "Demo",
+      "titulo": "Casos de Uso ADA",
+      "area": "Analítica Digital",
+      "tags": [
+        "Banca",
+        "ADA"
+      ],
+      "descripcion": "Implementación de las herramientas de Amazon en el proyecto Mercurio de BBVA.",
+      "autor": "Junior Analyst",
+      "fecha": "2026-04-01",
+      "url": ""
+    }
+  ]
+}
