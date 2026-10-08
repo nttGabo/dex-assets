@@ -2,5 +2,19 @@
   "barometro": "https://es.wikipedia.org/wiki/Wikipedia:Bienvenidos",
   "iniciativa": "#advisory",
   "equipo": "#equipo",
-  "kit-descarga": "https://nttgabo.github.io/dex-assets/Kit_Advisory.png"
+  "kit-descarga": "https://nttgabo.github.io/dex-assets/Kit_Advisory.png",
+  "dexy-waving": "https://nttgabo.github.io/dex-assets/DexyWaving.png",
+  "dexy-thumbsup": "https://nttgabo.github.io/dex-assets/Dexy_ThumbsUp.png",
+  "team-1": "https://nttgabo.github.io/dex-assets/team/1_PP.jpeg",
+  "team-2": "https://nttgabo.github.io/dex-assets/team/2_GV.jpeg",
+  "team-3": "https://nttgabo.github.io/dex-assets/team/3_MG.jpeg",
+  "team-4": "https://nttgabo.github.io/dex-assets/team/4_IF.jpeg",
+  "team-5": "https://nttgabo.github.io/dex-assets/team/5_ES.jpeg",
+  "team-6": "https://nttgabo.github.io/dex-assets/team/6_MF.jpeg",
+  "team-7": "https://nttgabo.github.io/dex-assets/team/7_JM.jpg",
+  "team-8": "https://nttgabo.github.io/dex-assets/team/8_AO.png",
+  "team-9": "https://nttgabo.github.io/dex-assets/team/9_JP.jpg",
+  "team-10": "https://nttgabo.github.io/dex-assets/team/10_IJ.jpg",
+  "team-11": "https://nttgabo.github.io/dex-assets/team/11_MO.jpg",
+  "team-12": "https://nttgabo.github.io/dex-assets/team/12_MV.png"
 }
