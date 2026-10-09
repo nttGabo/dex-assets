@@ -11,9 +11,6 @@
   "kit-explorar": "#kit",
   "repositorio-casos": "https://everisgroup.sharepoint.com/:f:/s/TrendsDEX/IgB-BLnWdKpeQaBtIQbKCtVyAR6iUTt7wCG0f6SZD8zkthc?e=1FOJ1V",
   "compartir-caso": "https://forms.cloud.microsoft/e/myw5b4t0z6",
-  "formacion-engineers-mad-2026-10": "",
-  "formacion-engineers-bcn-2026-10": "",
-  "formacion-engineers-zgz-2026-10": "",
   "barometro-form": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=h9xIMPBDAEGay64ZcceTleFBiadMTydChnd3ZSZw8BJUODQ3SDRIREtFOFU5N1lHMjg5Tk5TS1o3TSQlQCN0PWcu&r8c04abf654e44d5596fde6169746a34b=__EQUIPO__&r55e482ca25bf49d79c48235838d7a698=__PERFIL__&r9ecbdfe4d6064604ad550095d2ad8e39=__CODIGO_PREGUNTAS__&rd7bd3aaf4aad43fdb667a7b98d28b2cb=__CODIGO_RESULTADO__",
   "dexy-waving": "https://nttgabo.github.io/dex-assets/DexyWaving.png",
   "dexy-thumbsup": "https://nttgabo.github.io/dex-assets/Dexy_ThumbsUp.png",
@@ -33,5 +30,6 @@
   "barometro-grafica": "https://nttgabo.github.io/dex-assets/graph.html",
   "casos-json": "https://nttgabo.github.io/dex-assets/casos.json",
   "voces-json": "https://nttgabo.github.io/dex-assets/voces.json",
-  "formaciones-json": "https://nttgabo.github.io/dex-assets/formaciones.json"
+  "formaciones-json": "https://nttgabo.github.io/dex-assets/formaciones.json",
+  "equipo-json": "https://nttgabo.github.io/dex-assets/equipo.json"
 }
