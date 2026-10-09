@@ -1,0 +1,133 @@
+{
+  "equipo": [
+    {
+      "nombre": "Patricia Picanyol M.",
+      "area": "ExO",
+      "foto": "team-1",
+      "alt": "Patricia Picanyol",
+      "posicion": "66% 50%",
+      "zoom": 1.18,
+      "x": "0%",
+      "y": "3%"
+    },
+    {
+      "nombre": "Gabriel Vallarta A.",
+      "area": "ExO",
+      "foto": "team-2",
+      "alt": "Gabriel Vallarta",
+      "posicion": "57% 50%",
+      "zoom": 1.15,
+      "x": "0%",
+      "y": "-5%"
+    },
+    {
+      "nombre": "Marina Godoy M.",
+      "area": "ExO",
+      "foto": "team-3",
+      "alt": "Marina Godoy",
+      "posicion": "50% 0%",
+      "zoom": 1.8,
+      "x": "8%",
+      "y": "13%"
+    },
+    {
+      "nombre": "Irene Fernández S.",
+      "area": "ExO",
+      "foto": "team-4",
+      "alt": "Irene Fernández",
+      "posicion": "50% 0%",
+      "zoom": 1.65,
+      "x": "-3.5%",
+      "y": "6%"
+    },
+    {
+      "nombre": "Estela Sánchez F.",
+      "area": "ExO",
+      "foto": "team-5",
+      "alt": "Estela Sánchez",
+      "posicion": "48% 16%",
+      "zoom": 1.95,
+      "x": "6.5%",
+      "y": "3.5%"
+    },
+    {
+      "nombre": "Marcos Fernández L.",
+      "area": "ExO",
+      "foto": "team-6",
+      "alt": "Marcos Fernández",
+      "posicion": "49% 50%",
+      "zoom": 1.7,
+      "x": "0%",
+      "y": "10%"
+    },
+    {
+      "nombre": "Jorge Monzón M.",
+      "area": "Mobile",
+      "foto": "team-7",
+      "alt": "Jorge Monzón",
+      "posicion": "50% 50%",
+      "zoom": 1.05,
+      "x": "3%",
+      "y": "-2%"
+    },
+    {
+      "nombre": "Adrián Ortega R.",
+      "area": "Mobile",
+      "foto": "team-8",
+      "alt": "Adrián Ortega",
+      "posicion": "50% 30%"
+    },
+    {
+      "nombre": "Javi Papell C.",
+      "area": "Platforms",
+      "foto": "team-9",
+      "alt": "Javi Papell",
+      "posicion": "50% 50%",
+      "zoom": 1.6,
+      "x": "-4%",
+      "y": "14%"
+    },
+    {
+      "nombre": "Inma Jiménez M.",
+      "area": "Platforms",
+      "foto": "team-10",
+      "alt": "Inma Jiménez",
+      "posicion": "50% 50%",
+      "zoom": 1.35,
+      "x": "0%",
+      "y": "6%"
+    },
+    {
+      "nombre": "Marta Ortigosa C.",
+      "area": "ExD",
+      "foto": "team-11",
+      "alt": "Marta Ortigosa",
+      "posicion": "50% 50%",
+      "zoom": 1.35,
+      "x": "4%",
+      "y": "4%"
+    },
+    {
+      "nombre": "Marcos Vega L.",
+      "area": "ExO",
+      "foto": "team-12",
+      "alt": "Marcos Vega",
+      "posicion": "50% 0%",
+      "zoom": 1.5,
+      "x": "0%",
+      "y": "-5%"
+    },
+    {
+      "nombre": "Dexy",
+      "area": "Advisory Companion",
+      "foto": "dexy-waving",
+      "alt": "Dexy",
+      "posicion": "50% 50%",
+      "zoom": 1.9,
+      "x": "-6%",
+      "y": "18%",
+      "fondo": "#fff1f5",
+      "companion": true
+    }
+  ]
+}
