@@ -32,4 +32,10 @@
   "voces-json": "https://nttgabo.github.io/dex-assets/voces.json",
   "formaciones-json": "https://nttgabo.github.io/dex-assets/formaciones.json",
   "equipo-json": "https://nttgabo.github.io/dex-assets/equipo.json"
+  "version-aviso": "on",
+  "version-actual": "2026-11-23",
+  "version-url": "",
+  "version-titulo": "",
+  "version-texto": "",
+  "version-cta": ""
 }
